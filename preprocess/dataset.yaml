@@ -1,0 +1,6 @@
+# YOLOv8 dataset config. Point these at your own local copy of the data.
+# (Originally trained in Google Colab from a Google Drive folder.)
+train: data/pngs_and_yolov8txt/train
+val: data/pngs_and_yolov8txt/val
+nc: 3
+names: ['i2', 'i4', 'i6']   # instrument classes; i6 = radiofrequency probe

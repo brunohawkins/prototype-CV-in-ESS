@@ -160,3 +160,18 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# Local environments, IDE files and project data (never commit clinical data or weights)
+new_env/
+sklearn-env/
+.idea/
+.DS_Store
+data/
+*.mp4
+*.png
+*.jpg
+*.json
+!preprocess/*.json
+*.pt
+*.tflite
+runs/
